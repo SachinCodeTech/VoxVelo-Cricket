@@ -1,0 +1,35 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Cricket Ball Body (52dp diameter centered at 54,54) -->
+    <path
+        android:fillColor="#FF4B3E"
+        android:pathData="M54,28 A26,26 0 1,0 54,80 A26,26 0 1,0 54,28 Z" />
+    <!-- Ball highlight arc -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF7A70"
+        android:strokeWidth="1.5"
+        android:pathData="M40,36 A22,22 0 0,1 66,34" />
+    <!-- Main Center Seam Line -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.2"
+        android:pathData="M54,28 L54,80" />
+    <!-- Seam Stitches -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFF2EE"
+        android:strokeWidth="1.5"
+        android:pathData="M50,33 L58,35 M50,39 L58,41 M50,45 L58,47 M50,51 L58,53 M50,57 L58,59 M50,63 L58,65 M50,69 L58,71 M50,75 L58,77" />
+    <!-- Speed motion streaks -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#2DD4BF"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round"
+        android:pathData="M24,54 L20,54 M26,45 L21,42 M26,63 L21,66" />
+</vector>
